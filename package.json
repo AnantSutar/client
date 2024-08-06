@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-production": "node -r ./tsconfig-paths.js build/app.js"
   },
   "eslintConfig": {
     "extends": [
